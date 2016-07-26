@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/com/eypg/tenpay/RequestHandler.java=UTF-8
+encoding//src/com/eypg/tenpay/ResponseHandler.java=UTF-8
+encoding//src/com/eypg/tenpay/client/ClientResponseHandler.java=UTF-8
+encoding//src/com/eypg/tenpay/client/TenpayHttpClient.java=UTF-8
+encoding//src/com/eypg/tenpay/config/TenpayConfig.java=UTF-8
+encoding//src/com/eypg/tenpay/util/HttpClientUtil.java=UTF-8
+encoding//src/com/eypg/tenpay/util/MD5Util.java=UTF-8
+encoding//src/com/eypg/tenpay/util/TenpayUtil.java=UTF-8
+encoding//src/com/eypg/tenpay/util/XMLUtil.java=UTF-8
+encoding//src/com/eypg/yeepay/config/Configuration.java=UTF-8
+encoding//src/com/eypg/yeepay/config/DigestUtil.java=UTF-8
+encoding//src/com/eypg/yeepay/config/HttpUtils.java=UTF-8
+encoding//src/com/eypg/yeepay/config/PaymentForOnlineService.java=UTF-8
+encoding//src/com/eypg/yeepay/config/QueryResult.java=UTF-8
+encoding//src/com/eypg/yeepay/config/RefundResult.java=UTF-8
+encoding/<project>=UTF-8
