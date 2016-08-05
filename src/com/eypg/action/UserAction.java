@@ -165,6 +165,7 @@ public class UserAction extends ActionSupport {
 	private int w;
 	private int h;
 	private String hidPicUrl;
+	private String userName;
 	
 	HttpServletRequest request = null;
 	HttpServletResponse response = null;
@@ -392,7 +393,16 @@ public class UserAction extends ActionSupport {
 		Struts2Utils.renderJson(buyHistoryJSONList);
 		return null;
 	}
-	
+	public String  isCheckName(){
+		User user = userService.userByName(userName);
+		if(user==null){
+			Struts2Utils.renderText("true");
+		}
+		else{
+			Struts2Utils.renderText("false");
+		}
+		return null;
+	}
 	/**
 	 * 查看商品详情
 	 * @return
@@ -2317,5 +2327,14 @@ public class UserAction extends ActionSupport {
 	public void setOrderdetail(Orderdetail orderdetail) {
 		this.orderdetail = orderdetail;
 	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
 
 }

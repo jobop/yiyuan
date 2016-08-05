@@ -21,7 +21,7 @@
 	<!--编译java文件 -->
 	<target name="compile" depends="init" >
 		<echo message="正在编译java文件..."/>
-		<javac srcdir="${src.dir}" destdir="${dis.dir}" debug="on" includeantruntime="on">
+		<javac fork="true" executable="/usr/lib/jvm//java-6-openjdk-amd64/bin/javac"  srcdir="${src.dir}" destdir="${dis.dir}" debug="on" includeantruntime="on">
 			<compilerarg line="-encoding UTF-8 " />
 			<classpath refid="project.classpath" />
 		</javac>

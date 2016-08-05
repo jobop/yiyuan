@@ -1,0 +1,1 @@
+ant -Dlib.dir=/home/van/workspace/yiyuan/WebRoot/WEB-INF/lib -Dtomcat.home=/home/van/web_servers/tomcat/apache-tomcat-7.0.37 -Dsrc.dir=/home/van/workspace/yiyuan/src -Ddis.dir=/home/van/workspace/yiyuan/WebRoot/WEB-INF/classes -Dproject.name=ROOT
